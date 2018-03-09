@@ -2,8 +2,65 @@
 <html>
 <head>
 	<title>Tristan Tarpley</title>
+	<link href="https://fonts.googleapis.com/css?family=Alice|Amatic+SC|Josefin+Sans|Oswald|PT+Serif|Playfair+Display" rel="stylesheet">
+	<link rel="stylesheet" type="text/css" href="styles.css">
+    <link rel="stylesheet" href="https://code.jquery.com/ui/1.12.1/themes/base/jquery-ui.css">
 </head>
 <body>
-	<h1>Hi there</h1>
+<div class="container">
+	<div class="toggleContainer">	
+		<a class="classToggle oneSelect">Click here to see the thing you saw first.</a>
+		<a class="classToggle twoSelect">Click here to see my playful side.</a>
+		<a class="classToggle threeSelect">Click here to prove I can be serious, too.</a>
+	</div>
+
+	<div id="forClass">
+		<div class="one">
+			<div class="text">
+				<h1 style="text-align:center;" id="cleanUp" class="inactive">See, I can clean up all right.<span style="font-size:300%;vertical-align: top;">&rarr;</span></h1>
+				<h2>Hey, my name is Tristan</h2>
+				<p>I build and advise startups in Houston, Texas.</p>
+
+				<div class="logoContainer marketr">
+					<a target="_blank" href="https://marketr.life">Market(r)</a>
+				</div>
+				<div class="logoContainer producr">
+					<a href="#" target="_blank">Produc(r)</a>
+				</div>
+				<div class="logoContainer influencr">
+					<a href="https://influencr.life" target="_blank">Influenc(r)</a>
+				</div>
+				<div class="logoContainer studyTact">
+					<a href="https://studytact.com" target="_blank">StudyTact</a>
+				</div>
+
+				<div class="dareContainer">
+					<img class="dare" src="images/dare.jpeg">
+				</div>
+
+			</div>
+			<div class="image">
+				<img src="images/cheesin.jpg" class="headshot">
+				<button class="smile" onclick="changeImage()">Click here to make me mad.</button>
+			</div>
+
+
+		</div>
+	</div>
+</div>
+
+
+
+
+
+<script
+src="https://code.jquery.com/jquery-3.3.1.js"
+integrity="sha256-2Kok7MbOyxpgUVvAk/HJ2jigOSYS2auK4Pfzbm7uH60="
+crossorigin="anonymous"></script>
+<script
+src="https://code.jquery.com/ui/1.12.1/jquery-ui.js"
+integrity="sha256-T0Vest3yCU7pafRw9r+settMBX6JkKN06dqBnpQ8d30="
+crossorigin="anonymous"></script>
+<script src="frontEnd.js"></script>
 </body>
 </html>
