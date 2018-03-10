@@ -1,13 +1,17 @@
 $('.oneSelect').click(function(){
 	$('#forClass > div:nth-child(1)').removeClass();
 	$('#forClass > div:nth-child(1)').addClass("one");
-	$(".headshot").attr("src","images/cheesin.jpg");	
+	$(".headshot").attr("src","images/cheesin.jpg");
+
+	$('#cleanUp').addClass('inactive');	
 })
 
 $('.twoSelect').click(function(){
 	$('#forClass > div:nth-child(1)').removeClass();
 	$('#forClass > div:nth-child(1)').addClass("two");	
-	$(".headshot").attr("src","images/cheesin.jpg");	
+	$(".headshot").attr("src","images/cheesin.jpg");
+
+	$('#cleanUp').addClass('inactive');	
 })
 
 $('.threeSelect').click(function(){
@@ -15,7 +19,7 @@ $('.threeSelect').click(function(){
 	$('#forClass > div:nth-child(1)').addClass("three");
 	$(".headshot").attr("src","images/clean.jpeg");	
 	$(".smile").css('display', 'none');
-	$('#cleanUp').toggleClass('inactive');
+	$('#cleanUp').removeClass('inactive');
 })
 
 var flag = 1;
