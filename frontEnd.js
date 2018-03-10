@@ -2,7 +2,7 @@ $('.oneSelect').click(function(){
 	$('#forClass > div:nth-child(1)').removeClass();
 	$('#forClass > div:nth-child(1)').addClass("one");
 	$(".headshot").attr("src","images/cheesin.jpg");
-
+	$(".smile").removeClass('inactive');
 	$('#cleanUp').addClass('inactive');	
 })
 
@@ -11,13 +11,14 @@ $('.twoSelect').click(function(){
 	$('#forClass > div:nth-child(1)').addClass("two");
 	$(".headshot").attr("src","images/rutherford.jpeg");	
 	$('#cleanUp').addClass('inactive');	
+	$(".smile").addClass('inactive');
 })
 
 $('.threeSelect').click(function(){
 	$('#forClass > div:nth-child(1)').removeClass();
 	$('#forClass > div:nth-child(1)').addClass("three");
 	$(".headshot").attr("src","images/clean.jpeg");	
-	$(".smile").css('display', 'none');
+	$(".smile").removeClass('inactive');
 	$('#cleanUp').removeClass('inactive');
 })
 
