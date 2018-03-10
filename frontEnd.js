@@ -8,9 +8,8 @@ $('.oneSelect').click(function(){
 
 $('.twoSelect').click(function(){
 	$('#forClass > div:nth-child(1)').removeClass();
-	$('#forClass > div:nth-child(1)').addClass("two");	
-	$(".headshot").attr("src","images/cheesin.jpg");
-
+	$('#forClass > div:nth-child(1)').addClass("two");
+	$(".headshot").attr("src","images/rutherford.jpeg");	
 	$('#cleanUp').addClass('inactive');	
 })
 
