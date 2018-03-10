@@ -26,11 +26,13 @@ var flag = 1;
 function changeImage(){
 	if(flag == 1) {
       $(".headshot").attr("src","images/muggin.jpg");
+      console.log('image should be changed.');
       $(".smile").text('Click here to tell me a joke.');
       flag = 0;
     }
     else if(flag == 0) {
       $(".headshot").attr("src","images/cheesin.jpg");
+      console.log('image should be changed.');
       $(".smile").text('Click again to make me mad.');
       flag = 1;
     }
