@@ -12,27 +12,70 @@
 	display: none;
 }
 
+.opaque {
+	position: fixed;
+	width: 15%;
+	height: 100%;
+	z-index: 1;
+	background-color: white;
+	opacity: .9;
+}
+
 html, body {
 	margin: 0;
 	padding: 0;
 }
 
+.overlay {
+	position: fixed;
+	z-index: 1;
+	top: 10%;
+	left: 50%;
+	font-weight: bold;
+	opacity: .8;
+	text-transform: uppercase;
+}
+
+.sideways {
+	transform: rotate(180deg);
+	z-index: 3;
+	padding: 1% 0;
+	position: fixed;
+	right: 30%;
+	top: 30%;
+	text-transform: uppercase;
+}
+
 .personalLogoContainer {
 	width: 10%;
 	position: fixed;
+	z-index: 3;
 }
 
 .personalLogo {
 	width: 100%;
 }
 
+.marqueContainer {
+	width: 10%;
+	position: absolute;
+	margin-left: 30%;
+	z-index: -3;
+}
+.marqueContainer img {
+	width: 100%;
+	position: absolute;
+}
+
 .headshot {
-	height: 100%;
+	top: 5%;
+	height: 90%;
+	margin-right: 3%;
 	position: fixed;
 }
 .text {
 	width: 70%;
-	padding: 8% 25%;
+	padding: 8% 20%;
 }
 
 .image {
@@ -45,7 +88,7 @@ html, body {
 	width: 100%;
 }
 .bio {
-	width: 45%;
+	width: 60%;
 }
 .bio a:nth-child(1) img {
 	width: 15%;
@@ -56,6 +99,16 @@ html, body {
 .bio a:nth-child(3) img {
 	width: 15%;
 }
+
+.bio > p {
+	z-index: -2;
+	overflow: hidden;
+}
+
+.sideways {
+	writing-mode: tb-rl;
+}
+
 
 .smile {
 	position: fixed;
@@ -69,7 +122,7 @@ html, body {
 	font-size: 120%;
 	cursor: pointer;
 	transition-duration: .7s;
-	border-radius: 5px;
+	opacity: .9;
 }
 .smile:hover {
 	opacity: .9;
@@ -119,15 +172,15 @@ html, body {
 
 
 .one h1 {
-	color: #ca7d66;
+	color: #c8825e;
 	font-family: 'Oswald', sans-serif;
 }
 .one h2 {
-	color: #ca7d66;
+	color: #c8825e;
 	font-family: 'Oswald', sans-serif;
 }
 .one h3 {
-	color: #ca7d66;
+	color: #c8825e;
 	font-family: 'Oswald', sans-serif;
 }
 
@@ -171,9 +224,8 @@ html, body {
 
 
 .one p, a {
-	color: #5c5c5c;
+	color: black;
 	font-family: 'PT Serif', serif;
-	font-weight: bold;
 }
 .two p, a {
 	font-family: 'Josefin Sans', sans-serif;
