@@ -1,0 +1,467 @@
+/**************************************************/
+/*************************************************/
+/************************************************/
+/***********************************************/
+/********************global********************/
+/*********************************************/
+/********************************************/
+/*******************************************/
+/******************************************/
+/*****************************************/
+.inactive {
+	display: none;
+}
+
+.opaque {
+	position: fixed;
+	width: 15%;
+	height: 100%;
+	z-index: 1;
+	background-color: white;
+	opacity: .9;
+}
+
+html, body {
+	margin: 0;
+	padding: 0;
+}
+
+.overlay {
+	position: fixed;
+	z-index: 1;
+	top: 10%;
+	left: 50%;
+	font-weight: bold;
+	opacity: .8;
+	text-transform: uppercase;
+}
+
+.sideways {
+	transform: rotate(180deg);
+	z-index: 3;
+	padding: 1% 0;
+	position: fixed;
+	right: 30%;
+	top: 30%;
+	text-transform: uppercase;
+}
+
+.personalLogoContainer {
+	width: 10%;
+	position: fixed;
+	z-index: 3;
+}
+
+.personalLogo {
+	width: 100%;
+}
+
+.marqueContainer {
+	width: 10%;
+	position: absolute;
+	margin-left: 30%;
+	z-index: -3;
+}
+.marqueContainer img {
+	width: 100%;
+	position: absolute;
+}
+
+.headshot {
+	top: 5%;
+	height: 90%;
+	margin-right: 3%;
+	position: fixed;
+}
+.text {
+	width: 70%;
+	padding: 8% 20%;
+}
+
+.image {
+	width: 60%;
+}
+
+
+#forClass {
+	height: 100%;
+	width: 100%;
+}
+.bio {
+	width: 60%;
+}
+.bio a:nth-child(1) img {
+	width: 15%;
+}
+.bio a:nth-child(2) img {
+	width: 12%;
+}
+.bio a:nth-child(3) img {
+	width: 15%;
+}
+
+.bio > p {
+	z-index: -2;
+	overflow: hidden;
+}
+
+.sideways {
+	writing-mode: tb-rl;
+}
+
+
+.smile {
+	position: fixed;
+	width: 20%;
+	left: 80%;
+	bottom: 0%;
+	padding: 1% 2%;
+	color: white;
+	background-color: #ca7d66;
+	border: 1px solid transparent;
+	font-size: 120%;
+	cursor: pointer;
+	transition-duration: .7s;
+	opacity: .9;
+}
+.smile:hover {
+	opacity: .9;
+}
+
+.logoContainer img {
+	width: 100%;
+}
+
+.logoContainer {
+	font-weight: normal !important;
+	padding: 1%;
+	margin: 1%;
+	width: 20%;
+	border-radius: 5px;
+}
+
+.logoContainer a {
+	display: block;
+	text-decoration: none;
+	color: #ebeded;
+}
+.dareContainer {
+	border: 4px solid white;
+	width: 20%;
+	margin: 0;
+	box-shadow: 0px 10px 10px rgba(0, 0, 0, 0.16), 0 3px 6px rgba(0, 0, 0, 0.1);
+}
+.dareContainer img {
+	display: inline-block;
+}
+.dare {
+	width: 100%;
+}
+
+
+/**************************************************/
+/*************************************************/
+/************************************************/
+/***********************************************/
+/********************texts*********************/
+/*********************************************/
+/********************************************/
+/*******************************************/
+/******************************************/
+/*****************************************/
+
+
+.one h1 {
+	color: #c8825e;
+	font-family: 'Oswald', sans-serif;
+}
+.one h2 {
+	color: #c8825e;
+	font-family: 'Oswald', sans-serif;
+}
+.one h3 {
+	color: #c8825e;
+	font-family: 'Oswald', sans-serif;
+}
+
+
+.two h1 {
+	color: red;
+	font-family: 'Amatic SC', cursive;
+}
+.two h2 {
+	color: red;
+	font-family: 'Amatic SC', cursive;
+}
+.two h3 {
+	color: red;
+	font-family: 'Amatic SC', cursive;
+}
+
+
+.three h1 {
+	color: green;
+	font-family: 'Playfair Display', serif;
+}
+.three h2 {
+	color: green;
+	font-family: 'Playfair Display', serif;
+}
+.three h3 {
+	color: green;
+	font-family: 'Playfair Display', serif;
+}
+.one button {
+	font-family: 'Oswald', sans-serif;
+}
+.two button {
+	font-family: 'Amatic SC', cursive;
+}
+.three button {
+	font-family: 'Alice', serif;
+}
+
+
+
+.one p, a {
+	color: black;
+	font-family: 'PT Serif', serif;
+}
+.two p, a {
+	font-family: 'Josefin Sans', sans-serif;
+	color: #3d3d3d;
+}
+.three p, a {
+	font-family: 'Alice', serif;
+	color: #3d3d3d;
+}
+
+
+
+/**************************************************/
+/*************************************************/
+/************************************************/
+/***********************************************/
+/*********************nav**********************/
+/*********************************************/
+/********************************************/
+/*******************************************/
+/******************************************/
+/*****************************************/
+
+
+
+
+.toggleContainer {
+	z-index: 1;
+	top: 30%;
+	width: 15%;
+	text-align:center;
+	position: fixed;
+	overflow: hidden;
+	box-shadow: 10px 10px 10px rgba(0, 0, 0, 0.16), 0 3px 6px rgba(0, 0, 0, 0.1);
+}
+
+.classToggle {
+	display: inline-block;
+	font-family: 'Oswald', sans-serif;
+	cursor: pointer;
+	text-decoration: none;
+	color: black !important;
+	overflow-y: hidden;
+	padding: 5% 0;
+	transition-duration: .7s;
+	width: 100%;
+	vertical-align: middle;
+}
+
+
+.classToggle:hover {
+	background-color: black;
+	color: white !important;
+}
+
+.two .classToggle {
+	right: 0;
+}
+
+
+
+
+
+/**************************************************/
+/*************************************************/
+/************************************************/
+/***********************************************/
+/********************color*********************/
+/*********************************************/
+/********************************************/
+/*******************************************/
+/******************************************/
+/*****************************************/
+
+
+.one .classToggle {
+	color: white;
+}
+.two .classToggle {
+	color: black;
+}
+.three .classToggle {
+	color: white;
+}
+.one {
+	height: 100%;
+	background-color: white;
+}
+.two {
+	height: 100%;
+	background-color: white;
+}
+.three {
+	height: 100%;
+	background-color: white;
+}
+
+
+
+/**************************************************/
+/*************************************************/
+/************************************************/
+/***********************************************/
+/********************layout********************/
+/*********************************************/
+/********************************************/
+/*******************************************/
+/******************************************/
+/*****************************************/
+
+
+
+.one .personalLogoContainer {
+	left: 3%;
+	top: 5%;
+}
+
+.two .personalLogoContainer {
+	right: 3%;
+	top: 5%;
+}
+
+.three .personalLogoContainer {
+	left: 3%;
+	top: 5%;
+}
+
+
+.one .text {
+	float: left;
+}
+.two .text {
+	text-align:right;
+	margin-left: 22%;
+}
+
+
+.one .headshot {
+	right: 0;
+}
+.two .headshot {
+	left: 0;
+	top: 0;
+	border: 1px dashed transparent;
+}
+.three .headshot {
+	right: 0;
+	top: 0;
+}
+
+
+
+
+.two .toggleContainer {
+	right: 0;
+}
+.two .logoContainer {
+	
+}
+.two .smile {
+	left: 0;
+}
+.two .dareContainer {
+	margin-left:70%;
+}
+
+
+
+/**************************************************/
+/*************************************************/
+/************************************************/
+/***********************************************/
+/******************portfolio*******************/
+/*********************************************/
+/********************************************/
+/*******************************************/
+/******************************************/
+/*****************************************/
+
+
+
+
+
+.one .studyTact {
+	background-color: #262d37;
+}
+.one .marketr {
+	background-color: #ca7d66;
+}
+.one .influencr {
+	background-color: #62cde0;
+}
+.one .producr {
+	background-color: gray;
+}
+
+
+
+
+.two .studyTact {
+	background-color: gray;
+
+}
+.two .marketr {
+	background-color: #262d37;
+
+}
+.two .influencr {
+	background-color: #C08C81;
+
+}
+.two .producr {
+	background-color: #62cde0;
+
+}
+
+.three .studyTact {
+	background-color: #C08C81;
+}
+.three .marketr {
+	background-color: grey;
+
+}
+.three .influencr {
+	background-color: #262d37;
+
+}.three .producr {
+	background-color: #62cde0;
+}
+
+
+
+
+
+
+
+
+
+
