@@ -105,7 +105,7 @@ img { max-width: 100%; }
   position: absolute;
   left: 50%;
   top: 50%;
-  background-image: url(../images/loader.gif);
+  /*background-image: url(../images/loader.gif);*/
   background-repeat: no-repeat;
   background-position: center center;
   text-align: center;
@@ -114,6 +114,129 @@ img { max-width: 100%; }
 #status img {
   text-align: center;
   margin-top: -80px;
+}
+
+/* GRID */
+
+
+.six { width: 49.2%; }
+
+/* COLUMNS */
+
+.col-loader {
+  display: block;
+  float:left;
+  margin: 1% 0 1% 1.6%;
+}
+
+.col:first-of-type {
+  margin-left: 0;
+}
+
+.loader-container{
+  width: 100%;
+  max-width: 100%;
+  margin: 0 auto;
+  position: relative;
+  text-align: center;
+}
+
+/* CLEARFIX */
+
+.cf:before,
+.cf:after {
+    content: " ";
+    display: table;
+}
+
+.cf:after {
+    clear: both;
+}
+
+.cf {
+    *zoom: 1;
+}
+
+.row{
+  margin: 30px 0;
+}
+
+.three{
+  background-color: #fff;
+  padding: 50px 0;
+}
+
+/* ALL LOADERS */
+
+.loader{
+  width: 100px;
+  height: 100px;
+  border-radius: 100%;
+  position: absolute;
+  top: 50%;
+  bottom: 50%;
+  left: 50%;
+  margin: 0 auto;
+}
+
+/* LOADER 1 */
+
+#loader-1:before, #loader-1:after{
+  content: "";
+  position: absolute;
+  top: -10px;
+  left: -10px;
+  width: 100%;
+  height: 100%;
+  border-radius: 100%;
+  border: 10px solid transparent;
+  border-top-color: black;
+}
+/* LOADER 6 */
+
+#loader-6{
+  top: 40px;
+  left: -2.5px;
+}
+
+#loader-6 span{
+  text-align: center;
+  display: inline-block;
+  width: 5px;
+  height: 20px;
+  background-color: black;
+}
+
+#loader-6 span:nth-child(1){
+  animation: grow 1s ease-in-out infinite;
+}
+
+#loader-6 span:nth-child(2){
+  animation: grow 1s ease-in-out 0.15s infinite;
+}
+
+#loader-6 span:nth-child(3){
+  animation: grow 1s ease-in-out 0.30s infinite;
+}
+
+#loader-6 span:nth-child(4){
+  animation: grow 1s ease-in-out 0.45s infinite;
+}
+
+@keyframes grow{
+  0%, 100%{
+    -webkit-transform: scaleY(1);
+    -ms-transform: scaleY(1);
+    -o-transform: scaleY(1);
+    transform: scaleY(1);
+  }
+
+  50%{
+    -webkit-transform: scaleY(1.8);
+    -ms-transform: scaleY(1.8);
+    -o-transform: scaleY(1.8);
+    transform: scaleY(1.8);
+  }
 }
 
 /*----------------------------------------- 3) Helper --------------------------------------------------*/
