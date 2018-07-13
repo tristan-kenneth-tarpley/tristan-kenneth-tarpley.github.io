@@ -90,7 +90,7 @@
 
     //typed js
     $(".typed").typed({
-        strings: ["Driven By Insatiable Curiosity", "Fueled by Creativity.", "Daring Greatly Daily."],
+        strings: ["Driven By Insatiable Curiosity.", "Fueled by Creativity.", "Daring Greatly Daily."],
         typeSpeed: 100,
         backDelay: 900,
         // loop
