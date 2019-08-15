@@ -105,7 +105,6 @@ const ViewController = class {
         ]
         blogs.forEach(obj => {
             let blog = this.view_model.BlogViewModel(obj.link, obj.date, obj.title, obj.img, obj.lead)
-            console.log(blog)
             document.querySelector(".post-carousel").innerHTML += blog
         });
     }
