@@ -26,12 +26,36 @@ const ViewModels = class {
 
         return el
     }
+// ${projects_path + link}
+    PortfolioViewModel(title, caption, img, link, appear) {
+        const img_path = 'images/projects/'
+        const projects_path = 'projects/'
+        const el = `
+        <div class="single-project animated fade-in ${appear}">
+            <div class="project-image">
+                <img src="${img_path + img}" alt="" />
+            </div>
+            <div class="project-mask">
+                <div class="project-info">
+                    <div class="project-title">${title}</div>
+                    <div class="project-caption text-primary">${caption}</div>
+                    <div class="project-buttons">
+                        <a href="${link}" class="btn btn-primary btn-sm">
+                        View it
+                        </a>
+                    </div>
+                </div>
+            </div>
+        </div>
+        `
+        return el
+    }
 }
 
 
 const ViewController = class {
     constructor() {
-        this.title = 'Tristan Kenneth Tarpley - Tagline tagline tagline'
+        this.title = 'Tristan Kenneth Tarpley - Where Data Science Meets Marketing'
         this.name = 'Tristan Kenneth <strong>Tarpley</strong>'
         this.address = '708 Main St. Houston TX 77002'
         this.email = 'me@tristantarpley.com'
@@ -53,9 +77,6 @@ const ViewController = class {
     }
 
     blog() {
-
-
-
         const blogs = [
             {
                 link: 'https://medium.com/swlh/why-i-stopped-calling-myself-a-marketing-guy-91053e3f5902',
@@ -109,8 +130,39 @@ const ViewController = class {
         });
     }
 
+    portfolio() {
+        const portfolio_items = [
+            {
+                title: 'Digital Selling Conference',
+                caption: 'Why Great Marketers Are Economists',
+                img: 'digisell.png',
+                link: 'https://www.youtube.com/watch?v=1i6Ek7CdfzE',
+                appear: ""
+            },
+            {
+                title: "Teach Like A Rockstar Podcast",
+                caption: 'By Hal Bowman',
+                img: 'tlars.png',
+                link: 'https://halbowman.com/episode-026-tristan-tarpley/',
+                appear: 'appear-third'
+            },
+            {
+                title: "The Bright Start Podcast",
+                caption: 'With Blake Hudson',
+                img: 'blake.jpg',
+                link: 'https://www.iheart.com/podcast/256-bright-start-with-blake-hu-31031188/episode/9-tristan-tarpley-screw-the-script-34758807/',
+                appear: 'appear-second'
+            }
+        ]
+        portfolio_items.forEach(obj => {
+            let item = this.view_model.PortfolioViewModel(obj.title, obj.caption, obj.img, obj.link, obj.appear)
+            document.querySelector('#projects_container').innerHTML += item
+        })
+    }
+
     render() {
         this.blog()
+        this.portfolio()
         this.set('title', this.title, false)
         this.set('.name-full', this.name)
         this.set('.street-address', this.address)
