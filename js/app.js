@@ -16,9 +16,9 @@ const ViewModels = class {
                         </div>
                     </div>
                     <div class="post-text">
-                        <h3><a href="${link}">${title}</a></h3>
+                        <h3><a target="__blank" href="${link}">${title}</a></h3>
                         <p>${lead}</p>
-                        <a href="${link}" class="btn btn-primary btn-sm btn-round">Read more</a>
+                        <a href="${link} target="__blank" class="btn btn-primary btn-sm btn-round">Read more</a>
                     </div>
                 </div>
             </div>
@@ -40,7 +40,7 @@ const ViewModels = class {
                     <div class="project-title">${title}</div>
                     <div class="project-caption text-primary">${caption}</div>
                     <div class="project-buttons">
-                        <a href="${link}" class="btn btn-primary btn-sm">
+                        <a target="__blank" href="${link}" class="btn btn-primary btn-sm">
                         View it
                         </a>
                     </div>
