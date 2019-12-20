@@ -7,7 +7,7 @@ const ViewModels = class {
         const img_path = 'images/'
         const el = `
         <article class="post post-carousel-item">
-            <div class="post-image"><img src="${img_path + img}" alt="" /></div>
+            <div class="post-image"><img src="${img.substring(0, 5) != 'https' ? img_path + img : img}" alt="" /></div>
             <div class="post-content-holder">
                 <div class="post-content">
                     <div class="post-info clearfix">
@@ -41,7 +41,7 @@ const ViewModels = class {
                     <div class="project-caption text-primary">${caption}</div>
                     <div class="project-buttons">
                         <a target="__blank" href="${link}" class="btn btn-primary btn-sm">
-                        View it
+                        Go
                         </a>
                     </div>
                 </div>
@@ -78,6 +78,20 @@ const ViewController = class {
 
     blog() {
         const blogs = [
+            {
+                link: 'https://marketr.life/blog/5-important-ways-ai-marketing-will-forever-change-the-industry',
+                date: '11/28/19',
+                title: '5 Important Ways AI Marketing will Forever Change the Industry',
+                img: 'https://a.storyblok.com/f/69964/3840x2160/4abd8d9834/shutterstock_1088724245.jpg',
+                lead: `Ironically, AI Marketing Makes Companies More “Human”`
+            },
+            {
+                link: 'https://marketr.life/blog/7-proven-ways-to-growth-hack-your-saas-marketing',
+                date: '11/11/16',
+                title: '7 proven ways to growth hack your SaaS marketing',
+                img: 'https://a.storyblok.com/f/69964/7360x4912/62103e80d9/helloquence-oqmzwnd3thu-unsplash.jpg',
+                lead: `Growth hacking is a term that’s being thrown around a lot these days by SaaS marketing experts, but do we really know what it means?`
+            },
             {
                 link: 'https://medium.com/swlh/why-i-stopped-calling-myself-a-marketing-guy-91053e3f5902',
                 date: '02/12/18',
@@ -134,8 +148,8 @@ const ViewController = class {
         const portfolio_items = [
             {
                 title: `You're Doing It Wrong w/ Mark Henderson Leary`,
-                caption: 'Why Great Marketers Are Economists',
-                img: 'leary.png',
+                caption: 'And so it begins...',
+                img: 'leary.jpg',
                 link: 'https://youre-doing-it-wrong.simplecast.com/episodes/and-so-it-begins-aRFXQ_5x',
                 appear: ""
             },
