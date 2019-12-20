@@ -133,11 +133,18 @@ const ViewController = class {
     portfolio() {
         const portfolio_items = [
             {
+                title: `You're Doing It Wrong w/ Mark Henderson Leary`,
+                caption: 'Why Great Marketers Are Economists',
+                img: 'leary.png',
+                link: 'https://youre-doing-it-wrong.simplecast.com/episodes/and-so-it-begins-aRFXQ_5x',
+                appear: ""
+            },
+            {
                 title: 'Digital Selling Conference',
                 caption: 'Why Great Marketers Are Economists',
                 img: 'digisell.png',
                 link: 'https://www.youtube.com/watch?v=1i6Ek7CdfzE',
-                appear: ""
+                appear: "appear-fourth"
             },
             {
                 title: "Teach Like A Rockstar Podcast",
