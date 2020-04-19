@@ -33,12 +33,12 @@ const ViewModels = class {
         const el = `
         <div class="single-project animated fade-in ${appear}">
             <div class="project-image">
-                <img src="${img_path + img}" alt="" />
+                <img class="portfolio__img" src="${img_path + img}" alt="" />
             </div>
             <div class="project-mask">
                 <div class="project-info">
                     <div class="project-title">${title}</div>
-                    <div class="project-caption text-primary">${caption}</div>
+                    <div class="project-caption">${caption}</div>
                     <div class="project-buttons">
                         <a target="__blank" href="${link}" class="btn btn-primary btn-sm">
                         Go
@@ -78,6 +78,13 @@ const ViewController = class {
 
     blog() {
         const blogs = [
+            {
+                link: 'https://site.marketr.life/blog/online-marketing-helping-small-businesses-and-startups-compete-against-the-big-guns',
+                date: '3/03/20',
+                title: 'Online Marketing: Helping Small Businesses and Startups Compete Against The Big Guns',
+                img: 'https://uploads-ssl.webflow.com/5e8e91f51a56bd35cecba86f/5e90c1840e8ee910f692cced_shutterstock_268450493.jpg',
+                lead: `Thanks to advancements in technology and changes in the small business online marketing scene, it is now possible to find a safe middle ground - your business can stay at a comfortable size while going head to head with large, multinational corporations.`
+            },
             {
                 link: 'https://marketr.life/blog/5-important-ways-ai-marketing-will-forever-change-the-industry',
                 date: '11/28/19',
@@ -159,6 +166,13 @@ const ViewController = class {
                 img: 'digisell.png',
                 link: 'https://www.youtube.com/watch?v=1i6Ek7CdfzE',
                 appear: "appear-fourth"
+            },
+            {
+                title: 'Sales Tools Podcast',
+                caption: 'Market(r), the marketing robo-advisor.',
+                img: 'sales_tools.png',
+                link: 'https://podcast.sigparser.com/9',
+                appear: "appear-second"
             },
             {
                 title: "Teach Like A Rockstar Podcast",
