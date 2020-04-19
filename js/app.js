@@ -161,6 +161,13 @@ const ViewController = class {
                 appear: ""
             },
             {
+                title: `Marketing Workshop With Indonesian Consulate`,
+                caption: 'Marketing Indonesian-owned Businesses',
+                img: 'consulate.png',
+                link: 'https://youtu.be/A7iYWNK6DZA',
+                appear: ""
+            },
+            {
                 title: 'Digital Selling Conference',
                 caption: 'Why Great Marketers Are Economists',
                 img: 'digisell.png',
