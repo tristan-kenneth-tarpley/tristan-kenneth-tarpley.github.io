@@ -1,8 +1,8 @@
 module.exports = {
   siteMetadata: {
-    title: 'Retro - One Page Resume Template',
+    title: 'Tristan Kenneth Tarpley',
     description:
-      'Retro is a modern stylish one page resume template built using React and Gatsby',
+      "I'm a full-stack engineer, marketer, and founder here in Houston, TX.",
   },
   pathPrefix: '/',
   plugins: [

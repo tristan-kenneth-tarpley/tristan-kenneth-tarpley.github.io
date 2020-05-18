@@ -21,14 +21,17 @@ class Hero extends React.Component {
                             <div className="line-text">
                                 <h4>About Me</h4>
                             </div>
-                            <h3>I'm a Full Stack web developer working from home</h3>
+                            <h3>I'm a Full Stack Software Engineer, marketer, and founder.</h3>
                             <div className="separator" />
-                            <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Phasellus suscipit nisi vitae feugiat vestibulum. Aliquam porta nulla vel odio scelerisque, pretium volutpat dui euismod. Integer porttitor dolor placerat malesuada dictum. Fusce enim dolor, dignissim quis ornare at, elementum nec turpis. Donec ac interdum libero, sed condimentum lectus. Nunc nec iaculis tortor. Donec interdum sollicitudin eros in pharetra. Donec ultricies laoreet dictum. Maecenas vestibulum sodales justo, id hendrerit orci aliquet gravida. Nulla facilisi.</p>
+                            <p>Developer, marketer, and entrepreneur passionate about making complexity attainable, palatable, and delightful for the person who can most benefit from it.</p>
+
+                            <p>Currently this is applied by building my company, Market(r), which gives marketers superpowers-- focusing on prescriptive analysis to marketing decision-makers, not just the doers.</p>
+
+                            <p>What else? I'm a musician, a dog parent, and I like to think I'm a pretty good cook.</p>
                             <div className="social social_icons">
-                                <FontAwesomeIcon icon={faGithub} className="social_icon" onClick={() => window.open('https://www.github.com')}/>
-                                <FontAwesomeIcon icon={faTwitter} className="social_icon" onClick={() => window.open('https://www.twitter.com')} />
-                                <FontAwesomeIcon icon={faYoutube} className="social_icon" onClick={() => window.open('https://www.youtube.com')} />
-                                <FontAwesomeIcon icon={faLinkedin} className="social_icon" onClick={() => window.open('https://www.linkedin.com')} />
+                                <FontAwesomeIcon icon={faGithub} className="social_icon" onClick={() => window.open('https://github.com/tristan-kenneth-tarpley/')}/>
+                                <FontAwesomeIcon icon={faTwitter} className="social_icon" onClick={() => window.open('https://twitter.com/_TristanKenneth')} />
+                                <FontAwesomeIcon icon={faLinkedin} className="social_icon" onClick={() => window.open('https://www.linkedin.com/in/tristantarpley')} />
                             </div>
                         </div>
                     </Col>
@@ -37,12 +40,12 @@ class Hero extends React.Component {
                                 <h4>My Skills</h4>
                             </div>
                             <div className="skills-container">
-                                <Progress name="Web Design" value={90} delay={1100} />
-                                <Progress name="Angular" value={50} delay={1100} />
-                                <Progress name="React" value={80} delay={1100} />
-                                <Progress name="Vue" value={40} delay={1100} />
-                                <Progress name="MongoDB" value={100} delay={1100} />
-                                <Progress name="CSS" value={50} delay={1100} />
+                                <Progress name="JavaScript (esp. ES6)" value={90} delay={600} />
+                                <Progress name="React" value={80} delay={600} />
+                                <Progress name="Node.JS" value={75} delay={600} />
+                                <Progress name="TypeScript" value={60} delay={600} />
+                                <Progress name="HTML/CSS" value={100} delay={600} />
+                                <Progress name="Python" value={60} delay={600} />
                             </div>
                     </Col>
                 </Row>
