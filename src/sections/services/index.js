@@ -129,7 +129,7 @@ class Services extends React.Component {
               </div>
               <h4>Starting with UX</h4>
               <p>
-                Sorry, I probably sound like a broken record now.
+                Sorry, I probably sound like a broken record now. Sorry, I probably sound like a broken record now. Sorry, I probably sound like a broken record now. Sorry, I probably sound like a broken record now. Sorry, I probably sound like a broken record now.
               </p>
             </AnimationContainer>
           </Col>
