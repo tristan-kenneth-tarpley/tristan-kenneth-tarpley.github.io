@@ -18,7 +18,7 @@ class Layout extends React.Component {
     this.sections = [
       'home',
       'about',
-      'services',
+      'beliefs',
       'portfolio',
       'testimonials',
       'contact',

@@ -89,7 +89,7 @@ class Services extends React.Component {
     if (this.state.show || this.context.height === 'auto') {
       return (
         <Row>
-          <Col md={4} className="service border-side">
+          <Col md={4} className="service">
             <AnimationContainer delay={400} animation="fadeInDown fast">
               <div className="icon">
                 <FontAwesomeIcon icon={faRoad} />
@@ -133,7 +133,7 @@ class Services extends React.Component {
               </p>
             </AnimationContainer>
           </Col>
-          <Col md={4} className="service border-side">
+          <Col md={4} className="service">
             <AnimationContainer delay={1000} animation="fadeInUp fast">
               <div className="icon">
                 <FontAwesomeIcon icon={faServer} className="solid" />

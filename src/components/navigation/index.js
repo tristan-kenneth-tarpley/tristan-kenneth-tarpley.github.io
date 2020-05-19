@@ -18,7 +18,7 @@ class Navigation extends React.Component {
                 name: "About"
             },
             {
-                name: "Development beliefs"
+                name: "Beliefs"
             },
             {
                 name: "Portfolio"
