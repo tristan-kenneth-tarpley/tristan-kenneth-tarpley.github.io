@@ -49,7 +49,7 @@ class Testimonials extends React.Component {
               </div>
               <div className="heading">
                 <BaffleText
-                  text="Reviews by Clients"
+                  text="Don't take it from me."
                   revealDuration={500}
                   revealDelay={500}
                   parentMethod={this.show}
@@ -73,7 +73,7 @@ class Testimonials extends React.Component {
             </Col>
           </div>
         </Row>
-        <Row className="bottom">{this.clients()}</Row>
+        {/* <Row className="bottom">{this.clients()}</Row> */}
       </section>
     )
   }

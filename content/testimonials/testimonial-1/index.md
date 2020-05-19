@@ -1,8 +1,8 @@
 ---
 id: 1
 image: './image.jpg'
-heading: 'Great Service'
-name: 'Robert Doe'
-profession: 'Software Engineer'
+heading: ''
+name: 'Tyler Cobb'
+profession: 'Product Manager'
 ---
-Lorem ipsum dolor sit amet, consectetur adipiscing elit. Vestibulum aliquet elit quam, et finibus leo feugiat quis. Ut in turpis vitae elit dapibus porta vel vitae justo. Fusce ut nisi blandit, pellentesque metus sed, hendrerit nisi. Duis aliquam ante non velit molestie, et laoreet enim consectetur. Duis rutrum mollis velit, id maximus elit finibus vel. Vestibulum ex sapien, pellentesque id finibus non, elementum bibendum ex. Curabitur vitae felis posuere, luctus lorem imperdiet, ultrices libero. Duis blandit venenatis felis, vitae vulputate mi. Aliquam vitae egestas tortor, eu congue ex. 
+"I have the incredible pleasure of working with Tristan for the last few years. He is one of a very rare breed. One of the few people who possesses the commitment, talents, and dedication to have a vision of an incredibly complex tech product to solve the biggest problem in marketing, and then be able to translate high-level user stories into functional end-to-end code that look beautiful in-app without the luxury of pixel-perfect designs or books worth of business requirements. His mind is a spongy steel trap that eagerly absorbs and actually retains developer (and business and marketing) knowledge at a rate and quality I've not seen before. Anyone is lucky to snatch him up for their team. He will be a tremendous asset, and make an excellent leader when the opportunity arises. "

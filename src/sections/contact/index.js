@@ -50,10 +50,14 @@ class Contact extends React.Component {
                         </h2>
                     </Col>
                     <Col md={5} className="form">
-                        {this.form()}
+                    <h1>Want to talk shop about software, startups, or cooking?</h1>
+                    <h5>I'M ALSO TAKING APPLICATIONS FOR NEW FRIENDS.</h5>
+                    <a href="mailto:me@tristantarpley.com">me@tristantarpley.com</a>
+
+                        {/* {this.form()} */}
                     </Col>
                     <Col md={5} className="map">
-                        {this.map()}
+                        {/* {this.map()} */}
                     </Col>
                 </Row>
             </section>

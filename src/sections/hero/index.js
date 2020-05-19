@@ -20,21 +20,26 @@ class Hero extends React.Component {
           <Col md={6} className="content">
             <div className="content-text">
               <div className="line-text">
-                <h4>Hello, I'm</h4>
+                <h4>Hey, I'm</h4>
               </div>
               <Glitch text="Tristan Tarpley" />
               <Typewriter
                 options={{
                   strings: [
+                    'Product builder',
                     'Full Stack Engineer',
                     'Entrepreneur',
-                    'Data Guy',
                   ],
                   autoStart: true,
                   loop: true,
                 }}
               />
-              <button className="hover-button">
+              <button onClick={
+                () => 
+                  window.open('https://drive.google.com/file/d/1Il8g8fuHb3k7PEFlGN3obY4eTQPGT4MJ/view?usp=sharing', '_blank')
+                  || 
+                  window.location.replace('https://drive.google.com/file/d/1Il8g8fuHb3k7PEFlGN3obY4eTQPGT4MJ/view?usp=sharing')
+                } className="hover-button">
                   <span>Download CV</span>
               </button>
             </div>

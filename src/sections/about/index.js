@@ -21,13 +21,13 @@ class Hero extends React.Component {
                             <div className="line-text">
                                 <h4>About Me</h4>
                             </div>
-                            <h3>I'm a Full Stack Software Engineer, marketer, and founder.</h3>
+                            <h3>Full-stack software engineer, marketer, and product builder.</h3>
                             <div className="separator" />
-                            <p>Developer, marketer, and entrepreneur passionate about making complexity attainable, palatable, and delightful for the person who can most benefit from it.</p>
+                            <p>I'm passionate about making complexity attainable, palatable, and delightful for the user.</p>
 
                             <p>Currently this is applied by building my company, Market(r), which gives marketers superpowers-- focusing on prescriptive analysis to marketing decision-makers, not just the doers.</p>
 
-                            <p>What else? I'm a musician, a dog parent, and I like to think I'm a pretty good cook.</p>
+                            <p>What else? I'm a musician, dog parent, a fiancée to Andréa, and a pretty good cook.</p>
                             <div className="social social_icons">
                                 <FontAwesomeIcon icon={faGithub} className="social_icon" onClick={() => window.open('https://github.com/tristan-kenneth-tarpley/')}/>
                                 <FontAwesomeIcon icon={faTwitter} className="social_icon" onClick={() => window.open('https://twitter.com/_TristanKenneth')} />

@@ -97,16 +97,17 @@ class Portfolio extends React.Component {
               <div
                 className="portfolio_item"
                 style={{
-                  width:
-                    this.context.height === 'auto'
-                      ? '100%'
-                      : this.state.col === 4
-                      ? '25%'
-                      : this.state.col === 3
-                      ? '33.3%'
-                      : this.state.col === 2
-                      ? '50%'
-                      : '100%',
+                  width: '33.3%'
+                  // width:
+                  //   this.context.height === 'auto'
+                  //     ? '100%'
+                  //     : this.state.col === 4
+                  //     ? '25%'
+                  //     : this.state.col === 3
+                  //     ? '33.3%'
+                  //     : this.state.col === 2
+                  //     ? '50%'
+                  //     : '100%',
                 }}
                 key={index}
               >
