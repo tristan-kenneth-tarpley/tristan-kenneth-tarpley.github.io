@@ -10,7 +10,7 @@ class Layout extends React.Component {
   constructor(props) {
     super(props)
     this.state = {
-      height: 0,
+      height: 'auto',
       mobile: false,
       scrolllock: 0,
       width: 0,
@@ -66,7 +66,7 @@ class Layout extends React.Component {
   }
 
   wheel(e) {
-    if (!this.scrolling && !this.state.mobile) {
+    if (1==0 && !this.scrolling && !this.state.mobile) {
       this.scrolling = true
       if (e.deltaY < 0) {
         if (
@@ -99,7 +99,7 @@ class Layout extends React.Component {
       >
         <Navigation change={this.changeSection} />
         <div onWheel={e => this.wheel(e)}>{children}</div>
-        <ScrollLock isActive={this.state.scrolllock} />
+        <ScrollLock isActive={false /*this.state.scrolllock*/} />
       </ThemeProvider>
     )
   }
