@@ -97,7 +97,7 @@ class Portfolio extends React.Component {
               <div
                 className="portfolio_item"
                 style={{
-                  width: '33.3%'
+                  // width: '33.3%'
                   // width:
                   //   this.context.height === 'auto'
                   //     ? '100%'

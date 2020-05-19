@@ -88,74 +88,78 @@ class Services extends React.Component {
   services() {
     if (this.state.show || this.context.height === 'auto') {
       return (
-        <Row>
-          <Col md={4} className="service">
-            <AnimationContainer delay={400} animation="fadeInDown fast">
-              <div className="icon">
-                <FontAwesomeIcon icon={faRoad} />
-              </div>
-              <h4>End to end ownership</h4>
-              <p>
-                My background as a marketer and founder has given me immense insight and discipline around building with the end user in mind. Coupling that with my full-stack skillset, I'm uniquely well-rounded while still being able to dive deep.
-              </p>
-            </AnimationContainer>
-          </Col>
-          <Col md={4} className="service">
-            <AnimationContainer delay={200} animation="fadeInLeft fast">
-              <div className="icon">
-                <FontAwesomeIcon icon={faHouseDamage} />
-              </div>
-              <h4>Strong Architecture</h4>
-              <p>
-                My greatest strength is not as a code jockey, but as an architect; a creator. To that end, the most important role of an architect is to build with preparation in mind, walking the line between speed to market and not going in to tech debt.
-              </p>
-            </AnimationContainer>
-          </Col>
-          <Col md={4} className="service">
-            <AnimationContainer delay={600} animation="fadeInRight fast">
-              <div className="icon">
-                <FontAwesomeIcon icon={faPersonBooth} />
-              </div>
-              <h4>Being market-driven</h4>
-              <p>
-                You can't be all things to all people &mdash; you have to be everything to somebody. How do you build software that people love? Ah, well, that's why you bring in devs with marketing chops :)
-              </p>
-            </AnimationContainer>
-          </Col>
-          <Col md={4} className="service">
-            <AnimationContainer delay={800} animation="fadeInLeft fast">
-              <div className="icon">
-                <FontAwesomeIcon icon={faPencilRuler} className="solid" />
-              </div>
-              <h4>Starting with UX</h4>
-              <p>
-                Sorry, I probably sound like a broken record now. Sorry, I probably sound like a broken record now. Sorry, I probably sound like a broken record now. Sorry, I probably sound like a broken record now. Sorry, I probably sound like a broken record now.
-              </p>
-            </AnimationContainer>
-          </Col>
-          <Col md={4} className="service">
-            <AnimationContainer delay={1000} animation="fadeInUp fast">
-              <div className="icon">
-                <FontAwesomeIcon icon={faServer} className="solid" />
-              </div>
-              <h4>Not being tied to frameworks</h4>
-              <p>
-                When you build a house, you don't hire a hammer guy. You hire a builder. There are a lot of "React experts," "MERN stack engineers," and Python guys out there. I specialize in choosing the best tools for the job.
-              </p>
-            </AnimationContainer>
-          </Col>
-          <Col md={4} className="service">
-            <AnimationContainer delay={1200} animation="fadeInRight fast">
-              <div className="icon">
-                <FontAwesomeIcon icon={faRobot} className="solid" />
-              </div>
-              <h4>MDP > MVP</h4>
-              <p>
-                The "MVP" (minimum VIABLE product) pales in comparison to the "MDP" (minimum DELIGHTFUL product). I walk the line between where you should not cheap out, and where you can prioritize speed to market.
-              </p>
-            </AnimationContainer>
-          </Col>
-        </Row>
+        <React.Fragment>
+          <Row>
+            <Col md={4} className="service">
+              <AnimationContainer delay={400} animation="fadeInDown fast">
+                <div className="icon">
+                  <FontAwesomeIcon icon={faRoad} />
+                </div>
+                <h4>End to end ownership</h4>
+                <p>
+                  My background as a marketer and founder has given me immense insight and discipline around building with the end user in mind. Coupling that with my full-stack skillset, I'm uniquely well-rounded while still being able to dive deep.
+                </p>
+              </AnimationContainer>
+            </Col>
+            <Col md={4} className="service">
+              <AnimationContainer delay={200} animation="fadeInLeft fast">
+                <div className="icon">
+                  <FontAwesomeIcon icon={faHouseDamage} />
+                </div>
+                <h4>Strong Architecture</h4>
+                <p>
+                  My greatest strength is not as a code jockey, but as an architect; a creator. To that end, the most important role of an architect is to build with preparation in mind, walking the line between speed to market and not going in to tech debt.
+                </p>
+              </AnimationContainer>
+            </Col>
+            <Col md={4} className="service">
+              <AnimationContainer delay={600} animation="fadeInRight fast">
+                <div className="icon">
+                  <FontAwesomeIcon icon={faPersonBooth} />
+                </div>
+                <h4>Being market-driven</h4>
+                <p>
+                  You can't be all things to all people &mdash; you have to be everything to somebody. How do you build software that people love? Ah, well, that's why you bring in devs with marketing chops :)
+                </p>
+              </AnimationContainer>
+            </Col>
+          </Row>
+          <Row>
+            <Col md={4} className="service">
+              <AnimationContainer delay={800} animation="fadeInLeft fast">
+                <div className="icon">
+                  <FontAwesomeIcon icon={faPencilRuler} className="solid" />
+                </div>
+                <h4>Starting with UX</h4>
+                <p>
+                  Sorry, I probably sound like a broken record now. Sorry, I probably sound like a broken record now. Sorry, I probably sound like a broken record now. Sorry, I probably sound like a broken record now. Sorry, I probably sound like a broken record now.
+                </p>
+              </AnimationContainer>
+            </Col>
+            <Col md={4} className="service">
+              <AnimationContainer delay={1000} animation="fadeInUp fast">
+                <div className="icon">
+                  <FontAwesomeIcon icon={faServer} className="solid" />
+                </div>
+                <h4>Not being tied to frameworks</h4>
+                <p>
+                  When you build a house, you don't hire a hammer guy. You hire a builder. There are a lot of "React experts," "MERN stack engineers," and Python guys out there. I specialize in choosing the best tools for the job.
+                </p>
+              </AnimationContainer>
+            </Col>
+            <Col md={4} className="service">
+              <AnimationContainer delay={1200} animation="fadeInRight fast">
+                <div className="icon">
+                  <FontAwesomeIcon icon={faRobot} className="solid" />
+                </div>
+                <h4>MDP > MVP</h4>
+                <p>
+                  The "MVP" (minimum VIABLE product) pales in comparison to the "MDP" (minimum DELIGHTFUL product). I walk the line between where you should not cheap out, and where you can prioritize speed to market.
+                </p>
+              </AnimationContainer>
+            </Col>
+          </Row>
+        </React.Fragment>
       )
     }
   }
