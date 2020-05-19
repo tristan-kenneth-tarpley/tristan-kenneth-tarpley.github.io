@@ -6,9 +6,8 @@ import Glitch from 'components/glitch'
 import Typewriter from 'typewriter-effect'
 import ThemeContext from '../../context'
 class Hero extends React.Component {
-
   static contextType = ThemeContext
-
+  
   render() {
     return (
       <section
