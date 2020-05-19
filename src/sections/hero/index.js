@@ -40,7 +40,7 @@ class Hero extends React.Component {
                   || 
                   window.location.replace('https://drive.google.com/file/d/1Il8g8fuHb3k7PEFlGN3obY4eTQPGT4MJ/view?usp=sharing')
                 } className="hover-button">
-                  <span>Download CV</span>
+                  <span>Resume</span>
               </button>
             </div>
             {this.icons()}
