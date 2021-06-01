@@ -9,6 +9,7 @@ class Hero extends React.Component {
   static contextType = ThemeContext
   
   render() {
+    const RESUME_LINK = 'https://drive.google.com/file/d/1Il8g8fuHb3k7PEFlGN3obY4eTQPGT4MJ/view?usp=sharing';
     return (
       <section
         id={`${this.props.id}`}
@@ -35,9 +36,9 @@ class Hero extends React.Component {
               />
               <button onClick={
                 () => 
-                  window.open('https://drive.google.com/file/d/1Il8g8fuHb3k7PEFlGN3obY4eTQPGT4MJ/view?usp=sharing', '_blank')
+                  window.open(RESUME_LINK)
                   || 
-                  window.location.replace('https://drive.google.com/file/d/1Il8g8fuHb3k7PEFlGN3obY4eTQPGT4MJ/view?usp=sharing')
+                  window.location.replace(RESUME_LINK)
                 } className="hover-button">
                   <span>Resume</span>
               </button>

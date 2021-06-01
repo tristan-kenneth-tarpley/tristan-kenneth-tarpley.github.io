@@ -25,7 +25,7 @@ class Hero extends React.Component {
                             <div className="separator" />
                             <p>I'm passionate about making complexity attainable, palatable, and delightful for the user.</p>
 
-                            <p>Currently this is applied by building my company, Market(r), which gives marketers superpowers-- focusing on prescriptive analysis to marketing decision-makers, not just the doers.</p>
+                            <p>Currently I'm applying this passion at Juni Learning, as the Team Lead for the Growth Engineering team.</p>
 
                             <p>What else? I'm a musician, dog parent, a fiancée to Andréa, and a pretty good cook.</p>
                             <div className="social social_icons">
@@ -40,10 +40,10 @@ class Hero extends React.Component {
                                 <h4>My Skills</h4>
                             </div>
                             <div className="skills-container">
-                                <Progress name="JavaScript (esp. ES6)" value={90} delay={600} />
-                                <Progress name="React" value={80} delay={600} />
-                                <Progress name="Node.JS" value={75} delay={600} />
-                                <Progress name="TypeScript" value={60} delay={600} />
+                                <Progress name="JavaScript" value={90} delay={600} />
+                                <Progress name="TypeScript" value={90} delay={600} />
+                                <Progress name="React" value={85} delay={600} />
+                                <Progress name="Node.JS" value={80} delay={600} />
                                 <Progress name="HTML/CSS" value={100} delay={600} />
                                 <Progress name="Python" value={60} delay={600} />
                             </div>

@@ -3,6 +3,7 @@
     position: relative;
     .row {
         display: flex;
+        width: 100%;
         flex-wrap: inherit;
         overflow: hidden;
         min-height: 100%;
