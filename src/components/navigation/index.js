@@ -54,9 +54,7 @@ class Navigation extends React.Component {
                 </div>
                 <div className={`navigation ${this.state.show ? "active" : ""}`}>
                     <FontAwesomeIcon icon={faTimes} className="closeNav" onClick={() => this.setState({show: false})} />
-                    <div className="logo">
-                        <img src="img/logo.png" alt="logo"/>
-                    </div>
+                    <div className="logo" />
                     <div className="links">
                         <ul>
                             {this.items()}

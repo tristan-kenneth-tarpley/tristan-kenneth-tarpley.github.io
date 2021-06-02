@@ -1,8 +1,8 @@
 {
-  "name": "retro-template",
-  "description": "Retro - One Page Modern Resume Template",
+  "name": "tristan-kenneh-tarpley",
+  "description": "Tristan Tarpley's personal website",
   "version": "1.0.0",
-  "author": "Syed Muaz Ali",
+  "author": "Tristan Tarpley",
   "private": true,
   "dependencies": {
     "@fortawesome/free-regular-svg-icons": "^5.12.1",
@@ -60,7 +60,7 @@
     "react-helmet": "5.2.1"
   },
   "keywords": [
-    "retro",
+    "Tristan Tarpley",
     "portfolio"
   ],
   "main": "n/a",

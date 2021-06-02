@@ -25,9 +25,9 @@ class Hero extends React.Component {
                             <div className="separator" />
                             <p>I'm passionate about making complexity attainable, palatable, and delightful for the user.</p>
 
-                            <p>Currently I'm applying this passion at Juni Learning, as the Team Lead for the Growth Engineering team.</p>
+                            <p>Currently I'm applying this passion at Juni Learning, as the Team Lead for the Growth Engineering team, as well as by developing Skyvue, a no-code data warehouse that looks and feels like a spreadsheet, but is able to seamlessly handle millions of rows.</p>
 
-                            <p>What else? I'm a musician, dog parent, a fiancée to Andréa, and a pretty good cook.</p>
+                            <p>What else? I'm a musician, dog parent, married to Andréa, and a pretty good cook.</p>
                             <div className="social social_icons">
                                 <FontAwesomeIcon icon={faGithub} className="social_icon" onClick={() => window.open('https://github.com/tristan-kenneth-tarpley/')}/>
                                 <FontAwesomeIcon icon={faTwitter} className="social_icon" onClick={() => window.open('https://twitter.com/_TristanKenneth')} />
